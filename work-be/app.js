@@ -11,7 +11,7 @@ var userRoutes = require('./routes/user');
 var carsRoutes = require('./routes/cars');
 
 var app = express();
-mongoose.connect('mongodb://vamshi:vamshi@ds129776.mlab.com:29776/work-app', { useMongoClient: true });
+mongoose.connect('mongodb://test:test@ds133796.mlab.com:33796/work-app', { useMongoClient: true });
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));
